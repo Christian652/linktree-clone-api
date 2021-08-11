@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+docker/npm run typeorm:migration:generate aaaaaaaaaaaaaaaaaaaaa
+echo "migration gerada Fella!"
+docker/npm run typeorm:migration:generate run
+
+echo "migration rodada Fella!"
